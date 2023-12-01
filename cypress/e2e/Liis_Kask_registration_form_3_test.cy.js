@@ -187,9 +187,8 @@ describe('Bonus task: Functional tests for registration form 3', () => {
         cy.get('h1').contains('Submission received')
         cy.go('back')
         cy.log('Back again in registration form 3')
-
     })
-
+    
     // TEST 7 - mandatory fields are absent + validations (try using function)
     // Name is deleted (mandatory field)
     it('Name is deleted (mandatory field) and validation', () => {
